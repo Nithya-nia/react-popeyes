@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
    <>
    
-    <div className='Navbar'>
+     <div className='Navbar'>
       
         
       <nav class="navbar navbar-expand-lg bg-light">
@@ -50,7 +50,7 @@ const Navbar = () => {
   </div>
     
 
-
+ 
 
   
 

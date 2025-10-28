@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <>
     <Navbar/>
-    <div class="carousel-1">
+     <div class="carousel-1">
     <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators car-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active btn_indicator" aria-current="true" aria-label="Slide 1"></button>
@@ -50,7 +50,7 @@ const Home = () => {
 
 
 
-<div class="d-flex card-products">
+  <div class="d-flex card-products">
   <div class="background"
   style={{
     
@@ -63,7 +63,7 @@ const Home = () => {
     width:'100%',
 
   }}
-    >
+    > 
       <div className='container menu-list '>
   <div class='row row-cols-2 row-cols-md-4'>
   <div className=' col d-flex gap-3 mt-1'>
@@ -97,8 +97,7 @@ const Home = () => {
   <h3 class='let mt-2'>250 Million+ Chicken Sandwiches Served</h3>
 </div>
 </div>
-</div>
-
+</div> 
 
       <div class="sec  ">
       <div class="row row-cols-2 row-cols-md-4 g-4 pt-1">
@@ -150,12 +149,10 @@ const Home = () => {
   </div>
 
   </div>
-  
+   
 
  
-<div>
-  
-</div>
+
 
 <div id="carouselExampleIndicators" class="carousel slide carouselSec" data-bs-ride="true">
   <div class="carousel-indicators">
@@ -211,22 +208,7 @@ const Home = () => {
 
 
  
- {/* <div class="container desktopbanner"
-  style={{
-    
-   backgroundImage:`url(${desktopQRbanner})`,
-    backgroundRepeat:' no-repeat',
-    backgroundsize: 'cover',
-    backgroundattachment: 'fixed',
-    backgroundColor:'rgb(245, 241, 239)',
-    height:'540px',
-    width:'100%',
-   
-    
-
-  }}
-    > */}
-  
+ 
 
   <div class="card bg-light text-white">
   <img src={desktopQRbanner} class="card-img" alt="..."/>

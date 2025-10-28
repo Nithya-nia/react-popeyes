@@ -5,6 +5,7 @@ import footer_chicken from '../Images/footer-lovethatchicken.svg'
 const Footer = () => {
   return (
    <>
+
     <div class='container-fluid footer'>
             <div class='logo '>
                 <img src={wordmark}/>
@@ -57,15 +58,7 @@ const Footer = () => {
                  <p>All Rights Reserved. Copyright &copy; Jubliant FoodWorld Ltd.</p>
                   
             </div>
-            {/* <div class='row row-cols-1 row-cols-md-2'>
-                <div class='col d-flex rights'>
-                    <p>All Rights Reserved. Copyright &copy; Jubliant FoodWorld Ltd.</p>
-                
-                <div class='col d-flex footer_chicken'>
-                    <img src={footer_chicken}/>
-                </div>
-                </div>
-            </div> */}
+           
 
            
 </div>

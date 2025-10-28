@@ -6,6 +6,7 @@ import common_banner from '../Images/common-banner.png'
 const Contact = () => {
   return (
     <>
+    <div class="x_axis">
     <Navbar/>
 
     <div>
@@ -39,6 +40,7 @@ const Contact = () => {
   </div>
 
     <Footer/>
+    </div>
     </>
   )
 }
