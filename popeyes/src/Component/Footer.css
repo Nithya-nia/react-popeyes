@@ -1,0 +1,80 @@
+.footer{
+    background-color: black;
+    height:530px;
+    padding-top: 40px;
+    padding-left: 50px;
+    color:white;
+    
+}
+
+ .twitter{
+    border:solid 2px;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 5px;
+    background-color: rgb(242, 86, 0);
+    border-color: rgb(242, 86, 0);;
+ }
+ .insta{
+     border:solid 2px;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 5px;
+    background-color: rgb(242, 86, 0);
+    border-color: rgb(242, 86, 0);
+ }
+ .fb{
+     border:solid 2px;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 5px ;
+    background-color: rgb(242, 86, 0);
+    border-color: rgb(242, 86, 0);
+   
+
+ }
+ .yt{
+     border:solid ;
+     border-radius: 50%;
+    font-size: 30px;
+    padding:5px;
+    background-color: rgb(242, 86, 0);
+    border-color: rgb(242, 86, 0);
+ }
+ .availability{
+    gap:10px;
+ }
+ .apple{
+    font-size: 30px;
+ }
+ .google{
+    font-size: 30px;
+ }
+ .app{
+    border:solid 1px;
+    border-radius: 5px;
+    padding:10px;
+    width:200px;
+ }
+ .play_s{
+     border:solid 1px;
+      border-radius: 5px;
+    padding:10px;
+    width:200px;
+ }
+
+ @media (min-width: 768px) {
+  .footer_chicken{
+    
+    margin-left: 100px;
+  }
+}
+
+
+.contact{
+   font-size: 15px;
+}
+.foot-img{
+   position: absolute;
+   left:1000px;
+}

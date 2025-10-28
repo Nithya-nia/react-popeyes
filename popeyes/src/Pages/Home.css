@@ -1,0 +1,168 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+.menu-list{
+   position: relative;
+  top:-50px;
+  box-shadow: 0px 0px 5px 5px hsl(0, 0%, 50%);
+}
+.sign{
+  font-size: 42px;
+    color: rgb(255, 125, 0);
+    font-family: ChickenSans-Bold;
+}
+.products{
+  font-family: ChickenScript-Regular;
+    font-size: 78px;
+    color: rgb(0, 178, 169);
+}
+.view{
+      background-color: rgb(242, 86, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 2px 18px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 14px;
+    font-family: ChickenSans-regular;
+    line-height: 1.6;
+}
+.content{
+  
+  margin-left: 50px;
+}
+.card-rad{
+  border-radius: 20px;
+}
+.view-all{
+  background-color: rgb(255, 255, 255);
+    color: rgb(242, 86, 0);
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid rgb(242, 86, 0);
+    box-sizing: border-box;
+    bottom: 65px;
+    padding: 2px 18px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.card-1{
+  background-color: rgba(242, 85, 0, 0.844)
+}
+.card-2{
+  background-color: rgba(220, 9, 244, 0.685);
+}
+.card-3{
+  background-color: rgb(59, 237, 237);
+}
+
+.end{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.menu-list{
+  background-color:white;
+   display: flex;
+
+   border-radius: 20px;
+   align-items: center;
+
+}
+
+@media (max-width: 768px) {
+  .card-1,.card-2,.card-3{
+    height:300px;
+    
+  }
+  .products{
+  font-size: 40px;
+  }
+  .content{
+    margin-top: 30px;
+  }
+  .carouselSec{
+  margin-top: 40px;
+}
+.menu-list{
+    margin-top: 20px;
+  }
+  .let{
+    font-size: 15px;
+   
+  }
+.ach-img{
+  height:30px;
+}
+.car-indicators{
+  position:absolute;
+  top:130px;
+  right:250px;
+}
+.desktopbanner{
+  height:100px;
+}
+
+
+}
+
+@media (min-width: 768px) {
+  .content{
+    margin-top: 180px;
+  }
+  .car-indicators{
+  position:absolute;
+  top:480px;
+  right:1000px;
+}
+
+
+  
+}
+
+.desktopbanner{
+  width:100%;
+}
+
+.overlay{
+  border: solid;
+  border-radius: 20px;
+  height:400px;
+  width:500px;
+  color:white;
+  border-color: rgba(255, 125, 0, 0.9);
+  background-color: rgba(255, 125, 0, 0.9);
+  margin-top: 200px;
+  margin-left: 200px;
+}
+.card-head{
+  font-size: 60px;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.center{
+  font-size: 40px;
+}
+.card-head-3{
+  font-size: 50px;
+}
+.para{
+  text-align: center;
+}
+
+.btn_nxt{
+  
+  background-color: rgb(255, 123, 0);
+  border-radius: 50%;
+}
+.btn_previous{
+   background-color: rgb(255, 123, 0);
+  border-radius: 50%;
+}
+

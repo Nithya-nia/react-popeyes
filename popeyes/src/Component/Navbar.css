@@ -1,0 +1,27 @@
+
+.logo{
+    height:50px;
+    width:130px;
+}
+
+.li,ul{
+    display: flex;
+    flex-direction: column-reverse;
+    gap:10px;
+}
+.download-app{
+    padding-top: 10px;
+    background-color: rgb(242, 86, 0);
+    color:white;
+    border-radius: 50px;
+    width:100%;
+    font-weight: bold;
+    font-size: large;
+}
+@media (max-width: 768px) {
+  .download-app{
+    width:30%;
+  }
+}
+
+

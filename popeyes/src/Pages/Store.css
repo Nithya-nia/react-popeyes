@@ -1,0 +1,40 @@
+.story{
+    font-size: 60px;
+}
+.address{
+    border-style: none;
+}
+
+
+  @media (min-width: 768px) {
+  .pop-img{
+    margin-left: 500px;
+  }
+}
+
+.dropdown{
+    font-size: 25px;
+}
+.select{
+    background:white;
+    border: none;
+}
+
+.stores{
+    background-color: rgb(245, 241, 239);
+}
+.direction{
+    margin-left: 160px;
+    position:absolute;
+    top:100px;
+    color:rgba(242, 85, 0, 0.844);
+    border: solid;
+    border-radius: 50px;
+    width:110px;
+    
+    background-color: white;
+    text-decoration: none; 
+}
+.direction:hover{
+    color:grey;
+}
