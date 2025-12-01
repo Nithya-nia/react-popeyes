@@ -5,19 +5,22 @@ import Menu from '../src/Pages/Menu'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Contact from '../src/Pages/Contact'
 import Store from '../src/Pages/Store'
+import Cartpage from './Pages/Cart';
+
 
 function App() {
   return (
   
       <BrowserRouter>
+     
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/menu' element={<Menu/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/store' element={<Store/>}/>
+       <Route path='/cart' element={<Cartpage/>}/>
     </Routes>
     </BrowserRouter> 
-
   
     
   );

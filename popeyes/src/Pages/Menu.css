@@ -7,3 +7,10 @@
     font-weight: bold;
     font-size:20px;
 }
+.add_to_cart_btn{
+    color:white;
+    background-color: rgba(242, 85, 0, 0.844);
+    border: solid;
+    border-color: rgba(242, 85, 0, 0.844);
+    border-radius: 5px;
+}

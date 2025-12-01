@@ -8,57 +8,75 @@ import cf from '../Images/570bd641-7515-4d8a-a467-03cfb0f612a4_4603-cmb080-oa-98
 const menuproducts=[
     {
        id:1,
-       img:cbf ,
+       image:cbf ,
        title:"Cajun Double Crunch Burger Combo-Med",
-       des:"Cajun Double Crunch Burger with medium fries & medium drink for a perfect meal!"
+       des:"Cajun Double Crunch Burger with medium fries & medium drink for a perfect meal!",
+       button:"Add to cart",
+       quantity:1
     },
      {
        id:2,
-       img:cbf,
+       image:cbf,
        title:"Veggie Delight Burger (Classic) Combo - Medium",
-       des:"Veggie Delight Burger with medium Cajun fries & medium Cajun drink combo!"
+       des:"Veggie Delight Burger with medium Cajun fries & medium Cajun drink combo!",
+       button:"Add to cart",
+      quantity:1
     },  
      {
        id:3,
-       img:cc,
+       image:cc,
        title:"Chicken Popcorn Rice Bowl Combo - Medium",
-       des:"Flavourful rice, cooked with special blend of spices served with chicken popcorn and a Beverage (Medium)"
+       des:"Flavourful rice, cooked with special blend of spices served with chicken popcorn and a Beverage (Medium)",
+          button:"Add to cart",
+           quantity:1
     },
      {
        id:4,
-       img:chicken_c,
+       image:chicken_c,
        title:"Sweet Chilli Wings and Chicken Popcorn Combo",
-       des:"Enjoy 2pcs Sweet Chili Wings with Cajun Chicken Popcorn – a spicy, crunchy flavor combo!"
+       des:"Enjoy 2pcs Sweet Chili Wings with Cajun Chicken Popcorn – a spicy, crunchy flavor combo!",
+          button:"Add to cart",
+           quantity:1
     },
      {
        id:5,
-       img:bf ,
+       image:bf,
        title:"Classic Veg Burger & Fries Combo",
-       des:"Bite into our crispy veg patty with juicy veggies & mayo in sesame buns, served with regular fries."
+       des:"Bite into our crispy veg patty with juicy veggies & mayo in sesame buns, served with regular fries.",
+          button:"Add to cart",
+           quantity:1
     },
      {
        id:6,
-       img:fc ,
+       image:fc,
        title:"Chicken Popcorn & Fries Combo",
-       des:"Enjoy Regular Chicken Popcorn, hand-battered & crispy, with Regular Cajun Fries – the perfect crunchy combo!"
+       des:"Enjoy Regular Chicken Popcorn, hand-battered & crispy, with Regular Cajun Fries – the perfect crunchy combo!",
+          button:"Add to cart",
+           quantity:1
     },
      {
        id:7,
-       img:cf ,
+       image:cf,
        title:"Sweet Chilli Wings & Fries Combo",
-       des:"Enjoy 2pcs juicy Sweet Chili Wings with crispy Regular Cajun Fries – bold & satisfying!"
+       des:"Enjoy 2pcs juicy Sweet Chili Wings with crispy Regular Cajun Fries – bold & satisfying!",
+          button:"Add to cart",
+           quantity:1
     },
      {
        id:8,
-       img:cbf,
+       image:cbf,
        title:"Cajun Double Crunch Burger Combo-Large",
-       des:"Cajun Double Crunch Burger with large fries & large drink for a perfect meal!"
+       des:"Cajun Double Crunch Burger with large fries & large drink for a perfect meal!",
+          button:"Add to cart",
+           quantity:1
     },
      {
        id:9,
-       img:cc,
+       image:cc,
        title:"Chicken Popcorn Rice Bowl Combo - Large",
-       des:"Flavourful rice, cooked with special blend of spices served with chicken popcorn and a Beverage (Large)"
+       des:"Flavourful rice, cooked with special blend of spices served with chicken popcorn and a Beverage (Large)",
+          button:"Add to cart",
+           quantity:1
     },
 
 ]

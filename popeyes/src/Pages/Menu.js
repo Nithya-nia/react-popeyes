@@ -6,6 +6,9 @@ import menuproducts from '../Constant/Menuproducts'
 import veg from '../Images/veg.svg'
 import non_veg from '../Images/non-veg.svg'
 import Footer from '../Component/Footer'
+import Card from '../Constant/Card'
+import Menuproducts from '../Constant/Menuproducts'
+
 
 
 const Menu = () => {
@@ -50,21 +53,24 @@ const Menu = () => {
 </div>
      </div>
 
-     <div class="row row-cols-2 row-cols-md-4 g-4 mt-3">
+     {/* <div class="row row-cols-2 row-cols-md-4 g-4 mt-3">
 {
-  menuproducts.map((data)=>(
-  <div class="col" key={data.id}>
+  menuproducts.map(({img,id,des,title,button})=>(
+  <div class="col" key={id}>
     <div class="card">
-      <img src={data.img} class="card-img-top" alt="..."/>
+      <img src={img} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title"><img src={veg}/>&nbsp;{data.title}</h5>
-        <p class="card-text">{data.des}</p>
+        <h5 class="card-title"><img src={veg}/>&nbsp;{title}</h5>
+        <p class="card-text">{des}</p>
+        <button class="ms-3 add_to_cart_btn">{button}</button>
       </div>
     </div>
   </div>
   ))
 }
-</div>
+</div> */}
+
+<Card data={Menuproducts}/>
 </div>
  
 <Footer/>
