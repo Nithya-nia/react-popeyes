@@ -1,0 +1,13 @@
+.form-control{
+    background-color:rgb(235, 210, 182) ;
+    width:400px;height:50px;
+}
+.btn{
+    width: 400px;
+     height: 50px;
+     background-color:rgb(213, 79, 7) ;
+     color:white
+}
+.credential{
+text-decoration: none;
+}
