@@ -9,6 +9,7 @@ import Store from './Pages/Store'
 import Signup from './Pages/Signup';
 import Cartpage from './Pages/Cart';
 import ProtectedRoute from './Pages/ProtectedRoute';
+import Form from './Pages/Validation';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <Route path='/login' element={<Login/>}/>
       <Route path='/signup' element={<Signup/>}/>
        <Route path='/cart' element={<Cartpage/>}/>
+        <Route path='/validation' element={<Form/>}/>
     </Routes>
     </BrowserRouter> 
   
