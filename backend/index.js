@@ -177,7 +177,7 @@ app.post('/createaccount', async (req, res) => {
           }
 
 
-          const token = jwt.sign({ email }, secretKey, { expiresIn: '10d' });
+          const token = jwt.sign({ email }, secretKey, { expiresIn: '1000d' });
           res.json({ token });
           console.log("User logged in:", email);
         } catch (error) {
