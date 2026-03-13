@@ -26,7 +26,7 @@ const ProtectedRoute = ({ children }) => {
   if (isValid === null) return <p>Checking authentication...</p>;
 
 
-  if (!isValid) return <Navigate to="/Login" replace />;
+  if (!isValid) return <Navigate to="/login" replace />;
 
 
   return children;
