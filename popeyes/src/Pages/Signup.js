@@ -42,7 +42,7 @@ const Signup = () => {
                       }
                       else{
                         toast.success(data.message);
-                        window.location.href="/login";
+                        window.location.href="/Login";
                         form.reset()
 
                       }
