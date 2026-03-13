@@ -5,6 +5,7 @@ import Footer from '../Component/Footer'
 import { Link } from 'react-router-dom'
 import { toast, ToastContainer } from 'react-toastify'
 
+
 const Signup = () => {
 
   const handleSubmit=(event)=>{
@@ -42,7 +43,7 @@ const Signup = () => {
                       }
                       else{
                         toast.success(data.message);
-                        window.location.href="/Login";
+                        window.location.href="/login";
                         form.reset()
 
                       }
@@ -96,7 +97,7 @@ const Signup = () => {
   <div class="  d-flex flex-column align-items-sm-center align-items-lg-center ">
   
   
-<Link to="/Login"   class="text-dark credential pt-4"><i class="fa-solid fa-right-to-bracket"></i>Log In</Link>
+<Link to="/login"   class="text-dark credential pt-4"><i class="fa-solid fa-right-to-bracket"></i>Log In</Link>
 <Link to="/" class="text-dark credential pt-2"><i class="fa-solid fa-box-open"></i>Return to store</Link>
 </div>
 </div>
