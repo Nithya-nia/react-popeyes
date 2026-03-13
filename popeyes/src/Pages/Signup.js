@@ -20,7 +20,7 @@ const Signup = () => {
         
         
         
-                if(firstname===" " || lastname===" " || email===""|| password==="")
+                if(firstname==="" || lastname==="" || email===""|| password==="")
                 {
                     toast.warn('Fill All  fields  ');
                 }else{

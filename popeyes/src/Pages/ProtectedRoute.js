@@ -9,12 +9,18 @@ const ProtectedRoute = ({ children }) => {
 
 
   useEffect(() => {
-    const checkAuth = async () => {
+  const checkAuth = async () => {
+    try {
       const result = await verifyToken();
-      setIsValid(result.valid);
-    };
-    checkAuth();
-  }, []);
+      setIsValid(result?.valid || false);
+    } catch (error) {
+      console.log(error);
+      setIsValid(false);
+    }
+  };
+
+  checkAuth();
+}, []);
 
 
   if (isValid === null) return <p>Checking authentication...</p>;
