@@ -5,8 +5,11 @@ import Footer from '../Component/Footer'
 import { Link } from 'react-router-dom'
 import { toast, ToastContainer } from 'react-toastify'
 
+import { useNavigate } from "react-router-dom";
+
 
 const Signup = () => {
+  const navigate = useNavigate();
 
   const handleSubmit=(event)=>{
 
@@ -43,8 +46,9 @@ const Signup = () => {
                       }
                       else{
                         toast.success(data.message);
-                        window.location.href="/login";
+                       
                         form.reset()
+                         navigate("/login"); 
 
                       }
                        
