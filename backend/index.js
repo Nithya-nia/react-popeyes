@@ -1,7 +1,7 @@
 const express=require("express")
 const cors=require("cors")
 
-const port=6002
+const port = process.env.PORT || 6002;
 const app=express()
 
 app.use(cors())
@@ -26,7 +26,7 @@ async function run() {
 
      const productcollection=client.db("Popeyes").collection("products")
     
-    await client.connect();
+
 
  app.post("/uploadproduct",async(req,res)=>{
     const data=req.body
@@ -90,9 +90,6 @@ async function run() {
 }
 run().catch(console.dir);
 
- app.listen(port,()=>{ 
-    console.log("running on port number",port)
-})
 
 
 
