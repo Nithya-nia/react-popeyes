@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 
-const API_URL = "http://localhost:6002/";
+const API_URL = "https://react-popeyes-backend.onrender.com";
 
 
 
@@ -41,7 +41,7 @@ export const verifyToken = async () => {
 
 
   try {
-    const response = await axios.post(`${API_URL}verifyToken`,{},{
+    const response = await axios.post(`${API_URL}/verifyToken`,{},{
         headers: { Authorization:`Bearer ${data}` },
       }
     );
